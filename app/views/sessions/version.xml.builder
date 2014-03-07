@@ -1,5 +1,5 @@
 xml.instruct!
 xml.application do
-  xml.version WEBIFONY_VERSION
-  xml.name "Webifony"
+  xml.version WEBISTRANO_VERSION
+  xml.name "Webistrano"
 end

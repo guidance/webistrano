@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <meta name="description" content="Webifony, PHP/Symfony2 deployment, like a boss" />
+  <meta name="description" content="Peritor Webistrano - Capristrano Deployment the easy way" />
   <meta name="keywords" content="rubyonrails ruby rails capistrano deployment" />
-  <title>Webifony - <%=h @page_title %></title>
+  <title>Peritor Webistrano - <%=h @page_title %></title>
   <link rel="shortcut icon" href="/favicon.ico"></link>
   <%= javascript_include_tag 'jquery.min', 'application' %>
   <%= stylesheet_link_tag 'application' %>
@@ -14,8 +14,8 @@
 <body>
   <div id="app_top">
     <div id="header">
-      <div id="header_claim">PHP/Symfony2 deployment, like a boss</div>
-      <a href="<%= home_path %>"><%= image_tag('peritor_theme/php-med-trans-light.gif', :border => '0', :style => 'margin: 20px 0 0 15px')%></a>
+      <div id="header_claim">Capistrano deployment the easy way</div>
+      <a href="<%= home_path %>"><%= image_tag('peritor_theme/webistrano_logo.gif', :border => '0')%></a>
     </div>
     <div id="main_content">
       <% if logged_in? %>
@@ -53,7 +53,7 @@
        Logged in as <%= link_to h(current_user.login), user_path(current_user) %> | <%= link_to 'Logout', logout_path %>
       <% end %>
     </div>
-    Copyright &copy; 2013 | Webifony Version <%=h WEBIFONY_VERSION %>
+    Copyright &copy; 2007-2012 | Version <%=h WEBISTRANO_VERSION %> | <a href="http://www.peritor.com/en/products/webistrano/" target="_blank">Peritor Webistrano</a>
   </div>
 </body>
 
