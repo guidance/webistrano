@@ -16,6 +16,16 @@ Installation
 
 ### 1. Dependencies
 
+Prepare system dependencies (Ubuntu 12.04):
+
+```bash
+> apt-get install libmysqlclient-dev
+```
+
+```bash
+> gem update --system 1.8.25
+```
+
 Install all gem dependencies via the gem bundler:
 
 ```bash
