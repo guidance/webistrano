@@ -1,6 +1,6 @@
 class Notification < ActionMailer::Base
 
-  @@webistrano_sender_address = 'deploy@webifony.com'
+  @@webistrano_sender_address = 'deploy@webistrano.com'
 
   def self.webistrano_sender_address=(val)
     @@webistrano_sender_address = val
